@@ -1,0 +1,43 @@
+// src/app/book-list/book-list.component.scss
+.table-responsive {
+    margin-top: 20px;
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+  
+      th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+  
+      th {
+        background-color: #f2f2f2;
+      }
+  
+      tr:hover {
+        background-color: #f5f5f5;
+      }
+  
+      .actions {
+        button {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+  
+  button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: backgrround-color 0.3s ease;
+    
+    &hover{
+        background-color: #0056b3;
+    }
+  }
